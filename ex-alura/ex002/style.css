@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f5f0dc;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+h2 {
+    background-color: #b3a742;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+}
+#tb-nutrientes {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+#tb-nutrientes th {
+    background-color: #ffffff;
+    
+}
+
+nav ul li {
+    display:inline ;
+    margin-right: 50px;
+}
+
+#topo {
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #f8eab3;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
