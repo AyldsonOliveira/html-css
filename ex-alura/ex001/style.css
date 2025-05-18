@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    width: auto;
+    margin-left: auto;
+}
+
+h2 {
+    background-color: #838384;
+    padding: 5px;
+}
+.exp {
+    text-indent: 50px;
+}
+#E-Mail {
+    text-decoration: underline;
+    font-style: italic;
+}
+#cabecalho {
+   text-align: center;
+}
+#body {
+    
+}
+
