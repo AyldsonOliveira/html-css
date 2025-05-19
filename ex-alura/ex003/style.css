@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F2FFFC;
+}
+
+h1 {
+    background-color: rgba(151, 35, 72, 0.892);
+    color: rgb(250, 255, 250);
+    font-size: 40px;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+p {
+    text-align: justify;
+}
