@@ -3,7 +3,9 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #F2FFFC;
+    font-size: 20px;
 }
+
 
 main h1 {
     background-color: rgba(151, 35, 72, 0.892);
@@ -20,4 +22,27 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+blockquote{
+    background-color: #d9e5e3;
+
+}
+
+nav a{
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: grey;
 }
