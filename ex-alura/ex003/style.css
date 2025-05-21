@@ -4,6 +4,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #F2FFFC;
     font-size: 20px;
+    line-height: 1.5;
 }
 
 
@@ -13,6 +14,21 @@ main h1 {
     font-size: 40px;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
+    padding: 25px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
+}
+
+main {
+    line-height: 1.5;
+}
+
+
+
+main div {
+    width: 720px;
+    margin: auto;
 }
 
 h2 {
@@ -24,16 +40,29 @@ p {
     text-align: justify;
 }
 
+div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
 }
 
 
 blockquote{
     background-color: #d9e5e3;
-
+    padding: 20px;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
 }
 
 nav a{
@@ -42,7 +71,7 @@ nav a{
     text-decoration: none;
 }
 
-footer{
+footer {
     background-color: black;
     color: grey;
 }
