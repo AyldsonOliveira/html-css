@@ -1,25 +1,32 @@
 @charset "UTF-8";
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Crimson Text', serif;
     background-color: #F2FFFC;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 main h1 {
-    background-color: rgba(151, 35, 72, 0.892);
-    color: rgb(250, 255, 250);
-    font-size: 40px;
+    background-color: #851944;
+    color: #F2FFFC;
+    font-size: 60px;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
+    margin: 0px;
+    text-transform: uppercase;
 }
 
 main a {
     color: #851944;
+    float: left;
 }
 
 h2 {
     font-size: 30px;
     font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
 }
 
 p {
@@ -34,6 +41,8 @@ blockquote {
     width: 250px;
     margin: 0px;
     box-sizing: border-box;
+    float: right;
+    
 }
 
 strong {
@@ -60,6 +69,7 @@ nav h1 {
 
 nav a {
     color: inherit;
+    text-transform: lowercase;
 }
 
 .icones li {
@@ -71,4 +81,37 @@ footer {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+aside, img {
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
