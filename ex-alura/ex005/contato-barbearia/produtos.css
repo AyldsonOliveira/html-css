@@ -94,3 +94,48 @@ footer {
     margin: 20px;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: lightskyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s ;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkblue;
+    transform: scale(1.2);
+    transform: rotate(15deg) scale(1.2);
+}
+
