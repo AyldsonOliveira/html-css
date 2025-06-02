@@ -100,9 +100,7 @@ footer {
     margin: 20px;
 }
 
-main {
-    
-}
+
 
 form {
     margin: 40px 0;
@@ -170,6 +168,11 @@ td, th {
     
 }
 
+.titulo-principal, h2:first-letter {
+    font-weight: bold;
+}
+
+
 .principal {
     padding: 3em 0 ;
     background: #ffffff;
@@ -209,6 +212,7 @@ h3 {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#ffffff, #888888);
    
 }
 
@@ -240,6 +244,10 @@ h3 {
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
 }
 
 .imagem-beneficios {
