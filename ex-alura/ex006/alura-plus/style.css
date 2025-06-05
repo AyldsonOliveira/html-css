@@ -27,3 +27,35 @@ body {
 .container {
     height: 100%;
 }
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundaria);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+img {
+    padding: 2em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+}
